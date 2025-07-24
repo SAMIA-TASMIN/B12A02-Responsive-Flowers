@@ -171,10 +171,49 @@ black:900 */
       max-height: 286px;
     }
 
+.shop{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+.discount{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}    
+
+
 .subscribe-box{
-    /* background-image: url(../assets/news-letter-bg.png); */
-    background: url(../assets/news-letter-bg.png);
-    max-width: 1440px;
+    background-image: url(../assets/news-letter-bg.png);
+    /* background: url(../assets/news-letter-bg.png); */
+    max-width: 1140px;
+    max-height: 533px;
+    text-align: center;
+    align-items: center;
+    padding: 200px;
+}
+.bg-1{
+    background-image: url(../assets/news-letter-bg.png);
+    /* background: url(../assets/news-letter-bg.png); */
+    max-width: 1140px;
+    max-height: 533px;
+    text-align: center;
+    align-items: center;
+    padding: 200px;
+}
+.bg-2{
+    background-image: url(../assets/news-letter-bg.png);
+    /* background: url(../assets/news-letter-bg.png); */
+    max-width: 1140px;
+    max-height: 533px;
+    text-align: center;
+    align-items: center;
+    padding: 200px;
+}
+.bg-3{
+    background-image: url(../assets/news-letter-bg.png);
+    /* background: url(../assets/news-letter-bg.png); */
+    max-width: 1140px;
     max-height: 533px;
     text-align: center;
     align-items: center;
