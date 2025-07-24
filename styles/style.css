@@ -349,6 +349,13 @@ footer .log{
         grid-template-columns: repeat(2,1fr);
     }
     .seller{
+        flex-direction: row;
+        display: inline-flex;
+    }
+    .action{
+        display: inline-table;
+    }
+    .promo-section{
         flex-direction: column;
     }
 
