@@ -109,8 +109,8 @@ black:900 */
     max-width: 1140px;
 }
 .container{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     margin-top: 30px;
     gap: 15px;
     align-items: center;
@@ -170,18 +170,7 @@ black:900 */
       transform: translateX(-50%);
       max-width: 286px;
       max-height: 286px;
-    }
-
-.shop{
-    font-size: 28px;
-    font-weight: 600;
-    color: white;
-}
-.discount{
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-}    
+    }   
 
 
 
@@ -203,6 +192,8 @@ black:900 */
     max-width: 1140px;
     max-height: 424px;
 }
+
+/* promo section */
 
 .promo-section {
   display: flex;
@@ -244,7 +235,7 @@ black:900 */
 }
 
 .promo-content h4 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0 0 10px;
   font-weight: bold;
 }
@@ -252,12 +243,26 @@ black:900 */
 .promo-content a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 600;
   border-bottom: 2px solid white;
   padding-bottom: 2px;
-  transition: 0.3s;
+  /* transition: 0.3s; */
 }
 
+.promo-content .discount{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+} 
+
+.promo-content .shop{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+/* Subscribe section */
 
 .subscribe-box{
     background-image: url(../assets/news-letter-bg.png);
@@ -334,6 +339,19 @@ footer .log{
     height: 36px;
     width: 36px;
     /* justify-content: space-around; */
+    
+}
+@media screen and (max-width: 393px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .seller{
+        flex-direction: column;
+    }
+
     
 }
 
