@@ -134,7 +134,7 @@ black:900 */
     background-color: #E95A08;
     color: white;
     border: none;
-    padding: 12px 82px;
+    padding: 15px 82px;
 }
 
 /* seller section */
@@ -171,16 +171,18 @@ black:900 */
       max-height: 286px;
     }
 
-.bg{
+.subscribe-box{
     /* background-image: url(../assets/news-letter-bg.png); */
     background: url(../assets/news-letter-bg.png);
     max-width: 1440px;
     max-height: 533px;
+    text-align: center;
+    align-items: center;
+    padding: 200px;
 }
 
 .text{
-    text-align: center;
-    color: white;
+    color: white;   
 }
 .sub{
     font-size: 16px;
@@ -190,8 +192,7 @@ black:900 */
 .email{
     font-size: 16px;
     font-weight: 400;
-    padding: 10px 300px 10px 10px;
-    margin-left: 200px;
+    padding: 15px 300px 15px 15px;
 }
 
 /* Footer section */
